@@ -1,0 +1,48 @@
+.dext-off {
+  display: none;
+}
+.dext-hide {
+  position: fixed;
+  visibility: hidden;
+}
+
+.dext-sentence {
+  clear: both;
+  display: none;
+  float: left;
+  font-size: 3.5em;
+  margin: 0.5em 0.25em 0.5em 0.25em;
+  padding: 0;
+}
+.dext-sentence span {
+  border: 1px solid #FFF;
+  border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  float: left;
+  margin: 0 0.1em 0.2em 0;
+  padding: 0 0.1em;
+  text-align: center;
+  width: 100%;
+}
+.dext-sentence ol, 
+.dext-sentence ul, 
+.dext-sentence li {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.dext-info {
+  border-right: 1px solid #CCC;
+  color: #999;
+  float: left;
+  font-size: 0.29em;
+  height: 3em;
+  margin: 0;
+  margin-right: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1.4em;
+  text-align: center;
+  width: 3em;
+}
+
