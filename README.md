@@ -1,7 +1,4 @@
-Dext
-----
-
-Text with Depth, Dimension, and Dexterity. 
+Dext: Text with depth, dimension, and dexterity. 
 A small Javascript effects library to add frames to text.
 
 Demo
