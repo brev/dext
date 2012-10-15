@@ -46,16 +46,16 @@ Use this mode for putting in links, multiple words per register, etc.
 <div class="dext-sentence dext-speed-slow">
   <div>
     <span>This</span>
-    <span>is<span>
-    <span>frame<span>
+    <span>is</span>
+    <span>frame</span>
     <span>
       <a href="http://google.com">One</a>
     </span>
   </div>
   <div>
     <span>This</span>
-    <span>is<span>
-    <span>frame<span>
+    <span>is</span>
+    <span>frame</span>
     <span>
       <a href="http://yahoo.com">Two</a>
     </span>
