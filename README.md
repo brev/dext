@@ -25,7 +25,7 @@ Example Source
 * JQuery
 
 ### Easy way, auto-parse based on spacing characters
-Simple text only
+Simple text only.
 
 ```html
 <link rel="stylesheet" type="text/css" href="dext.css" />
@@ -69,7 +69,7 @@ Code Help
 ---------
 
 ### How does it work?
-* Just tag any node with the ".dext-sentence" class.
+* Just tag any node with the *.dext-sentence* class.
 * Child nodes become the frames.
 * Child node text gets either automatically split into registers based on spacing characters, or if Grandchild nodes are detected, those are use for splitting.
 
