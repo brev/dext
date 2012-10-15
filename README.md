@@ -8,8 +8,20 @@ Demo
 ----
 http://brev.name
 
+Why?
+----
+* Larger text, easier to read.
+* Say more with less space.
+* Wraps nicely with resize.
+* Works great for mobile.
+* Very wide browser compatability.
+* Fun and Art, mostly, probably.
+
 Example Source
 --------------
+
+### Pre-Reqs
+* JQuery
 
 ### Easy way, auto-parse based on spacing characters
 Simple text only
@@ -21,6 +33,7 @@ Simple text only
   <li>This is frame Two</li>
   <li>This is frame Three</li>
 </ul>
+<script src="jquery.js"></script>
 <script src="dext.js"></script>
 ```
 
@@ -47,15 +60,18 @@ Use this mode for putting in links, multiple words per register, etc.
     </span>
   </div>
 </div>
+<script src="jquery.js"></script>
 <script src="dext.js"></script>
 ```
 
-Why?
-----
-* Larger text, easier to read.
-* Say more with less space.
-* Wraps nicely with resize.
-* Works great for mobile.
-* Very wide browser compatability.
-* Fun and Art, mostly, probably.
+Code Help
+---------
+
+### Speed Class Names
+* .dext-speed-ludicrous
+* .dext-speed-fastest
+* .dext-speed-fast
+* .dext-speed-medium
+* .dext-speed-slow
+* .dext-speed-slowest
 
