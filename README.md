@@ -67,7 +67,12 @@ Use this mode for putting in links, multiple words per register, etc.
 Code Help
 ---------
 
-### Speed Class Names
+### How does it work?
+* Just tag any node with the ".dext-sentence" class.
+* Child nodes become the frames.
+* Child node text gets either automatically split into registers based on spacing characters, or if Grandchild nodes are detected, those are use for splitting.
+
+### Speed class names
 * .dext-speed-ludicrous
 * .dext-speed-fastest
 * .dext-speed-fast
