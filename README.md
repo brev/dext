@@ -9,12 +9,10 @@ http://brev.name
 
 Why?
 ----
-* Larger text, easier to read.
+* Large text, easy to read.
 * Say more with less space.
 * Wraps nicely with resize.
-* Works great for mobile.
-* Accessible for handicapped users.
-* Full UTF-8 support.
+* Works great on mobile.
 * Extreme browser compatability.
 * Mostly just Fun and Art, probably, though.
 
