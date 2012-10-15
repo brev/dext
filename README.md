@@ -1,5 +1,7 @@
-Dext: Text with depth, dimension, and dexterity. 
-A small Javascript effects library to add frames to text.
+Dext
+----
+Text with depth, dimension, and dexterity. 
+A small Javascript niche effect library to add frames to sentences.
 
 Demo
 ----
@@ -11,8 +13,10 @@ Why?
 * Say more with less space.
 * Wraps nicely with resize.
 * Works great for mobile.
-* Very wide browser compatability.
-* Fun and Art, mostly, probably.
+* Accessible for handicapped users.
+* Full UTF-8 support.
+* Extreme browser compatability.
+* Mostly just Fun and Art, probably, though.
 
 Example Source
 --------------
