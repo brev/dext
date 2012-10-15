@@ -1,8 +1,8 @@
 Dext
-====
+----
 
 Text with Depth, Dimension, and Dexterity. 
-A small JS effects library.
+A small Javascript effects library to add frames to text.
 
 Demo
 ----
@@ -14,9 +14,9 @@ Example Source
 ### Easy way, auto-parse based on spacing characters
 Simple text only
 
-```js
+```html
 <link rel="stylesheet" type="text/css" href="dext.css" />
-<ul class="dext-sentence">
+<ul class="dext-sentence dext-speed-fast">
   <li>This is frame One</li>
   <li>This is frame Two</li>
   <li>This is frame Three</li>
@@ -27,9 +27,9 @@ Simple text only
 ### Regular way, manually group based on child nodes
 Use this mode for putting in links, multiple words per register, etc.
 
-```js
+```html
 <link rel="stylesheet" type="text/css" href="dext.css" />
-<div class="dext-sentence">
+<div class="dext-sentence dext-speed-slow">
   <div>
     <span>This</span>
     <span>is<span>
