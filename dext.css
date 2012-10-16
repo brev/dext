@@ -10,8 +10,8 @@
   clear: both;
   display: none;
   float: left;
-  font-size: 3.5em;
-  margin: 0.5em 0.25em;
+  font-size: 3em;
+  margin: 0.5em 0.25em 0.5em 0.25em;
   padding: 0;
 }
 .dext-sentence span {
@@ -43,6 +43,7 @@
   padding-right: 0.5em;
   padding-top: 1.4em;
   text-align: center;
+  white-space: nowrap;
   width: 3em;
 }
 
