@@ -6,19 +6,19 @@
 var DextSentence = function(opts) {
   this.id = opts.id;
   this.node = opts.node;
+  this.Jnode = $(this.node);
   this.frames = opts.frames;
-  
   this.speed = 3000;
-  if($(this.node).hasClass('dext-speed-ludicrous')) this.speed = 94;
-  if($(this.node).hasClass('dext-speed-fastest'))   this.speed = 188;
-  if($(this.node).hasClass('dext-speed-fast'))      this.speed = 375;
-  if($(this.node).hasClass('dext-speed-medium'))    this.speed = 750;
-  if($(this.node).hasClass('dext-speed-slow'))      this.speed = 1500;
-  if($(this.node).hasClass('dext-speed-slowest'))   this.speed = 3000;
-
+  if(this.Jnode.hasClass('dext-speed-ludicrous')) this.speed = 94;
+  if(this.Jnode.hasClass('dext-speed-fastest'))   this.speed = 188;
+  if(this.Jnode.hasClass('dext-speed-fast'))      this.speed = 375;
+  if(this.Jnode.hasClass('dext-speed-medium'))    this.speed = 750;
+  if(this.Jnode.hasClass('dext-speed-slow'))      this.speed = 1500;
+  if(this.Jnode.hasClass('dext-speed-slowest'))   this.speed = 3000;
   this.maxWidths = [];
   this.counter = 0; 
   this.interval = null;
+  this.once = false;
   
   // calc max column widths 
   for(i=0; i<this.frames.length; i++) {
@@ -42,8 +42,13 @@ DextSentence.prototype.drawSeed = function() {
     var newEl = $('<span />');
     newEl.attr('id', 'dext-sentence' + this.id + '-word' + i);
     newEl.html(this.frames[0].words[i]);
-    $(this.node).append(newEl);
+    this.Jnode.append(newEl);
     newEl.width(this.maxWidths[i] + 'px');
+  }
+ 
+  // .dext-after init 
+  if(this.Jnode.attr('class').match(/dext-after/)) {
+    this.Jnode.hide();
   }
 };
 
@@ -79,10 +84,18 @@ DextSentence.prototype.step = function() {
       onode.remove();
 
       // update progress meters  
-      var sel = $(this.node).children('.dext-info'); 
+      var sel = this.Jnode.children('.dext-info'); 
       $(sel).html((this.counter+1) + ' / ' + this.frames.length);
     } 
   } 
+ 
+  // handle .dext-after, show node _after_ first frame rotation 
+  if(! this.once) {
+    this.once = true;
+    if(this.Jnode.attr('class').match(/dext-after/)) {
+      this.Jnode.fadeIn(); 
+    } 
+  }
 };
 
 /**

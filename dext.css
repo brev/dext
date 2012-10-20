@@ -5,6 +5,9 @@
   position: fixed;
   visibility: hidden;
 }
+.dext-after {
+  display: none;
+}
 
 .dext-sentence {
   clear: both;
@@ -24,9 +27,10 @@
   text-align: center;
   width: 100%;
 }
+.dext-sentence a, 
+.dext-sentence li,
 .dext-sentence ol, 
-.dext-sentence ul, 
-.dext-sentence li {
+.dext-sentence ul { 
   border: 0;
   margin: 0;
   padding: 0;
