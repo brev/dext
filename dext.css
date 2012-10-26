@@ -5,16 +5,13 @@
   position: fixed;
   visibility: hidden;
 }
-.dext-after {
-  display: none;
-}
 
 .dext-sentence {
   clear: both;
   display: none;
   float: left;
   font-size: 3em;
-  margin: 0.5em 0.25em 0.5em 0.25em;
+  margin: 0.5em 0.25em 0.5em 0.33em;
   padding: 0;
 }
 .dext-sentence span {
@@ -27,25 +24,21 @@
   text-align: center;
   width: 100%;
 }
-.dext-sentence a, 
-.dext-sentence li,
 .dext-sentence ol, 
-.dext-sentence ul { 
+.dext-sentence ul, 
+.dext-sentence li {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
 .dext-info {
-  border-right: 1px solid #CCC;
+  border-top: 1px dotted #CCC; 
+  clear: both; 
   color: #999;
-  float: left;
   font-size: 0.29em;
-  height: 3em;
-  margin: 0;
-  margin-right: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 1.4em;
+  margin: 0; 
+  padding: 1em 0 0.5em 0;
   text-align: center;
   white-space: nowrap;
   width: 3em;
