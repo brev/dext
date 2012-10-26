@@ -5,6 +5,9 @@
   position: fixed;
   visibility: hidden;
 }
+.dext-after {
+  display: none;
+}
 
 .dext-sentence {
   clear: both;
