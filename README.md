@@ -77,7 +77,7 @@ Code Help
 * .dext-speed-fast
 * .dext-speed-medium
 * .dext-speed-slow
-* .dext-speed-slowest
+* .dext-speed-slowest (default)
 
 ### Other special class names
 * .dext-after = Show this sentence only after the others have started playing.
